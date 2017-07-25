@@ -1,0 +1,4 @@
+node_modules
+gatsby-ssr.js
+gatsby-browser.js
+!src/*.js
