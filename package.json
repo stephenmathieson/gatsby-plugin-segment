@@ -23,5 +23,14 @@
     "babel-preset-react": "^6.24.1",
     "react": "^15.6.1",
     "standard": "^10.0.2"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "gatsby-ssr.js",
+      "gatsby-browser.js",
+      "example/.cache",
+      "example/public"
+    ]
   }
 }
