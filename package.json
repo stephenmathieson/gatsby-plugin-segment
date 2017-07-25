@@ -2,9 +2,18 @@
   "name": "gatsby-plugin-segment",
   "version": "1.0.1",
   "description": "A Gatsby plugin for Segment analytics",
+  "keywords": [
+    "analytics",
+    "gatsby-plugin",
+    "gatsby",
+    "segment"
+  ],
   "main": "gatsby-ssr.js",
   "license": "MIT",
-  "repository": "git@github.com:stephenmathieson/gatsby-plugin-segment.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stephenmathieson/gatsby-plugin-segment.git"
+  },
   "author": "Stephen Mathieson <me@stephenmathieson.com>",
   "scripts": {
     "lint": "standard",
@@ -32,5 +41,12 @@
       "example/.cache",
       "example/public"
     ]
+  },
+  "bugs": {
+    "url": "https://github.com/stephenmathieson/gatsby-plugin-segment/issues"
+  },
+  "homepage": "https://github.com/stephenmathieson/gatsby-plugin-segment#readme",
+  "directories": {
+    "example": "example"
   }
 }
