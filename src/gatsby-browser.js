@@ -8,5 +8,8 @@ export const onRouteUpdate = ({ location }) => {
     return
   }
 
-  window.analytics.page()
+  window.analytics.page({
+    path: location.pathname,
+    url: location.href,
+  })
 }
