@@ -1,1 +1,7 @@
 node_modules
+.babelrc
+HISTORY.md
+yarn.lock
+circle.yml
+example/
+src/
